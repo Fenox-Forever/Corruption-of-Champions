@@ -433,6 +433,18 @@
 				<ImageFile>./img/camping</ImageFile>
 				<ImageFile>./img/camping_1</ImageFile>
 			</ImageSet>
+			<ImageSet id="camp-stream-herm">
+				<ImageFile>./img/camp-stream-herm</ImageFile>
+				<ImageFile>./img/camp-stream-herm_1</ImageFile>
+			</ImageSet>
+			<ImageSet id="camp-stream-female">
+				<ImageFile>./img/camp-stream-female</ImageFile>
+				<ImageFile>./img/camp-stream-female_1</ImageFile>
+			</ImageSet>
+			<ImageSet id="camp-stream-male">
+				<ImageFile>./img/camp-stream-male</ImageFile>
+				<ImageFile>./img/camp-stream-male_1</ImageFile>
+			</ImageSet>
 			<ImageSet id="coc-logo">
 				<ImageFile>./img/coc-logo</ImageFile>
 				<ImageFile>./img/coc-logo_1</ImageFile>
