@@ -1929,6 +1929,7 @@ public class Camp extends NPCAwareContent {
 		hideMenus();
 		menu();
 		clearOutput();
+		outputText(images.showImage("camp-campfire"));
 		outputText("What would you like to do?");
 		addButton(0, "SpentTime", campSpendTimeActions).hint("Check your options to spend time in and around [camp].");
 		addButton(1, "Build", campBuildingSim).hint("Check your [camp] build options.");
@@ -2354,6 +2355,7 @@ private function SparrableNPCsMenu():void {
 
 	private function examinePortal():void {
 		clearOutput();
+		outputText(images.showImage("camp-portal"));
 		if (flags[kFLAGS.CAMP_PORTAL_PROGRESS] <= 0) {
 			outputText("You walk over to the portal, reminded by how and why you came. You wonder if you can go back to Ingnam. You start by picking up a small pebble and throw it through the portal. It passes through the portal. As you walk around the portal, you spot the pebble at the other side. Seems like you can't get back right now.");
 			flags[kFLAGS.CAMP_PORTAL_PROGRESS] = 1;
