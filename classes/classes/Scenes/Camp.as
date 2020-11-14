@@ -2229,6 +2229,9 @@ private function SparrableNPCsMenu():void {
 		outputText("You ponder over the nearby stream that's flowing. Deciding you'd like a dip, ");
 		if (player.armorName == "slutty swimwear") outputText("you are going to swim while wearing just your swimwear. ");
 		else outputText("you strip off your [armor] until you are completely naked. ");
+		if (player.hasCock() && player.hasVagina()) outputText(images.showImage("camp-stream-herm"));
+   		else if (player.hasVagina()) outputText(images.showImage("camp-stream-female"));
+   		else outputText(images.showImage("camp-stream-male"));
 		outputText("You step into the flowing waters. You shiver at first but you step in deeper. Incredibly, it's not too deep. ");
 		if (player.tallness < 60) outputText("Your feet aren't even touching the riverbed. ");
 		if (player.tallness >= 60 && player.tallness < 72) outputText("Your feet are touching the riverbed and your head is barely above the water. ");
