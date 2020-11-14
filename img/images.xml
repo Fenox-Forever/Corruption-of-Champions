@@ -413,6 +413,14 @@
 				<ImageFile>./img/callu-sex-fuck</ImageFile>
 				<ImageFile>./img/callu-sex-fuck_1</ImageFile>
 			</ImageSet>
+			<ImageSet id="camp-campfire">
+				<ImageFile>./img/camp-campfire</ImageFile>
+				<ImageFile>./img/camp-campfire_1</ImageFile>
+			</ImageSet>
+			<ImageSet id="camp-portal">
+				<ImageFile>./img/camp-portal</ImageFile>
+				<ImageFile>./img/camp-portal_1</ImageFile>
+			</ImageSet>
 			<ImageSet id="camp-watch-stars">
 				<ImageFile>./img/camp-watch-stars</ImageFile>
 				<ImageFile>./img/camp-watch-stars_1</ImageFile>
